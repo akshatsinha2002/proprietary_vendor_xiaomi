@@ -195,13 +195,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/etc/mixer_paths_wcd9335.xml:system/etc/mixer_paths_wcd9335.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
-    vendor/xiaomi/land/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
-    vendor/xiaomi/land/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
-    vendor/xiaomi/land/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
@@ -1474,7 +1471,6 @@ PRODUCT_PACKAGES += \
     shutdownlistener \
     CNEService \
     QtiTetherService \
-    com.qualcomm.location \
     dpmserviceapp \
     qcrilmsgtunnel \
     colorservice \
